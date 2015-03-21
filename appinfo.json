@@ -1,7 +1,8 @@
 {
     "appKeys": {},
     "capabilities": [
-        ""
+        "location",
+        "configurable"
     ],
     "companyName": "stroy1@binghamton.edu",
     "longName": "cuisinerank",
