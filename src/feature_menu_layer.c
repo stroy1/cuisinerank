@@ -46,6 +46,7 @@ static void in_received_handler(DictionaryIterator *iter, void *context) {
   APP_LOG(APP_LOG_LEVEL_DEBUG, "RECEIVE: %s", location_tuple->value->cstring);
   
   if (location_tuple) { // Act on the found fields received
+    //curl -v "https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=42.09,-75.95&rankby=distance&type=restaurant&key=AIzaSyCxOoBMy-445CZfSDbdcIxA8i21dZqhMvw"
     words[0] = location_tuple->value->cstring;
   }
 }
