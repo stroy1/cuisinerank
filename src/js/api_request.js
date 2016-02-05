@@ -1,5 +1,5 @@
 function fetchRestaurants(coordinates) {
-  var KEY = "AIzaSyCxOoBMy-445CZfSDbdcIxA8i21dZqhMvw";
+  var KEY = "";
   
   var response; 
   console.log(coordinates.latitude);
